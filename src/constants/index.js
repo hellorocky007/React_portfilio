@@ -18,9 +18,6 @@ import {
     meta,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     blogging,
     drumset,
@@ -173,96 +170,5 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "Highly recommend Dr. Jay! Professional, attentive, and provides clear explanations.",
-      name: "Mamta",
-      designation: "Chennai",
-      company: "Tamilnadu",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "Dr. Patel's understanding of my problem was evident. Their clear guidance and support greatly helped me navigate my health concerns.",
-      name: "Ramu Singh",
-      designation: "Vijayawada",
-      company: "Ap",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "Dr. Smith addressed my issue with care and expertise. Their thorough explanation of my condition reassured me immensely",
-      name: "Rema",
-      designation: "Avadi",
-      company: "Chennai",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
   
-  const projects = [
-    {
-      name: "Heart disease",
-      description:
-        "Heart disease treatment depends on the cause and type of heart damage. Healthy lifestyle habits — such as eating a low-fat, low-salt diet, getting regular exercise and good sleep, and not smoking — are an important part of treatment.",
-      tags: [
-        {
-          name: "Aoid Smooking",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Low Salt Diet",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Regular Exercise",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://www.youtube.com/watch?v=8E_NPCZCNdo",
-    },
-    {
-      name: "Fever",
-      description:
-        "Take paracetamol or ibuprofen for fever. Stay hydrated with water, avoiding alcohol, tea, and coffee. Sponge skin with lukewarm water and use a fan. Avoid cold baths or showers to prevent trapping heat. Rest, including bed rest, is essential for recovery. These steps aid in reducing fever and promoting healing.",
-        tags: [{
-          name: "Paracetamol",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "ibuprofen",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Avoiding Alcohol",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://www.youtube.com/watch?app=desktop&v=t-ljzFLT00c",
-    },
-    {
-      name: "Stomach Pain",
-      description:
-        "Choose hydrating fluids like water, juice, or warm lemon water with honey, avoiding dehydrating substances like caffeine and alcohol. Opt for nutritious options like chicken soup or warm apple juice for comfort. Rest at home to prevent spreading illness. Maintain warm room temperature and use a cool-mist humidifier for comfort.",
-      tags: [
-        {
-          name: "prioritize water",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "warm lemon water",
-          color: "green-text-gradient",
-        },
-        {
-          name: "drink juice",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://www.youtube.com/watch?v=lBPaJIIXO_E",
-    },
-  ];
-  
-  export { navLinks, services, technologies, experiences, testimonials, projects };
+  export { navLinks, services, technologies, experiences};
